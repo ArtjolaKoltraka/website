@@ -1,0 +1,29 @@
+.projectsList {
+  width: 90vw;
+  max-width: 1170px;
+  display: grid;
+  gap: 1rem;
+  margin-left: 70px;
+}
+
+.projectsList img {
+  width: 490px;
+  height: 400px;
+}
+.projectsList h1 {
+  font-size: 20px;
+  color: rgb(105, 75, 75);
+}
+
+h1 {
+  display: flex;
+  justify-content: left;
+  font-size: 25px;
+  color: rgb(105, 75, 75);
+}
+
+@media screen and (min-width: 768px) {
+  .projectsList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

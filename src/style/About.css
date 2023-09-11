@@ -1,0 +1,22 @@
+.about {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutTop {
+  height: 100%;
+  width: 100%;
+}
+
+.aboutBottom {
+  width: 600px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-left: 200px;
+}

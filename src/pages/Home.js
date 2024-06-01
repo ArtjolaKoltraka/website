@@ -14,6 +14,7 @@ function Home() {
         <p toUppercase>
           Any architectural work that doesn't express serenity is an error{" "}
         </p>
+        <p className="p">The new cool is being an architect</p>
         <div>
           <button onClick={() => setShowModal(true)}>Show Msg</button>
           {onShowModal && (

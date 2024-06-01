@@ -12,7 +12,7 @@ function Home() {
       <div className="headerContainer">
         <h1>Xherahu_Arch</h1>
         <p toUppercase>
-          Any architectural work that doesn't express serenity is an error{" "}
+          A architectural work that doesn't express serenity is an error{" "}
         </p>
         <div>
           <button onClick={() => setShowModal(true)}>Show Msg</button>
